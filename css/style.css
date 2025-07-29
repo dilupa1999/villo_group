@@ -229,14 +229,14 @@ p {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 991px) {
   .section-padding {
-    padding-top: 65px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -4232,4 +4232,14 @@ img.mfp-img {
 
 .text-black{
   color: #27313f;
+}
+
+@media (min-width: 992px) {
+  .mb-lg-2{
+  margin-bottom: 20px;
+} 
+}
+
+.mb-2{
+  margin-bottom: 20px;
 }

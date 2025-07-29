@@ -22,6 +22,47 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Modernizr-->
     <script src="js/modernizr-2.8.3.min.js"></script>
+
+    <style>
+        .card-features {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .card-features li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .card-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-info h4,
+        .contact-info p {
+            text-align: start;
+        }
+
+        .subs-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -99,8 +140,9 @@
                 <div class="col-md-12">
                     <div class="banner-text">
                         <h1 class="banner-text__title">Our Subsidiaries</h1>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing. We are here for help.</p>
-                        <ul  class="seo-breadcumb">
+                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing. We are here for help.</p>
+                        <ul class="seo-breadcumb">
                             <li><a href="#">Home Page</a></li>
                             <li><a href="#">Our Subsidiaries</a></li>
                         </ul>
@@ -113,407 +155,88 @@
     <div class="body-overlay"></div>
 
     <section class="section-padding service-section">
-        <div class="container">
+        <div class="container g-2">
+            <div class="row match-height-active mb-2">
+                <div class="col-lg-6">
+                    <img src="images/my-images/1.png" alt="img" class="subs-img">
+                </div>
+                <div class="col-lg-6">
+                    <h1>Villo Auto Cars</h1>
+                    <p>
+                        Your trusted automotive partner in Kandy, providing comprehensive vehicle solutions with a
+                        commitment to quality and customer satisfaction. We specialize in delivering reliable
+                        transportation services and automotive expertise.
+                    </p>
+                    <ul class="card-features">
+                        <li>New and pre-owned vehicle sales</li>
+                        <li>Professional automotive servicing</li>
+                        <li>Genuine spare parts supply</li>
+                        <li>Vehicle financing solutions</li>
+                        <li>Expert technical consultation</li>
+                    </ul>
+                    <div class="contact-info">
+                        <h4>Connect With Us</h4>
+                        <p><strong>Location:</strong> Kandy, Sri Lanka</p>
+                        <p><strong>Services:</strong> Automotive Sales & Service</p>
+                        <p><strong>Specialization:</strong> Complete vehicle solutions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row match-height-active mb-2">
+                <div class="col-lg-6">
+                    <h1>Villo Hotels</h1>
+                    <p>
+                        Experience exceptional hospitality in the heart of Sri Lanka's cultural capital. We offer
+                        comfortable accommodations and memorable experiences, combining modern amenities with
+                        traditional Sri Lankan warmth.
+                    </p>
+                    <ul class="card-features">
+                        <li>Comfortable guest accommodations</li>
+                        <li>Conference and event facilities</li>
+                        <li>Local cuisine and dining</li>
+                        <li>Tourism and travel assistance</li>
+                        <li>Cultural experience packages</li>
+                    </ul>
+                    <div class="contact-info">
+                        <h4>Hospitality Excellence</h4>
+                        <p><strong>Location:</strong> Kandy, Sri Lanka</p>
+                        <p><strong>Services:</strong> Accommodation & Hospitality</p>
+                        <p><strong>Specialization:</strong> Cultural tourism experiences</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/my-images/2.png" alt="img" class="subs-img">
+                </div>
+            </div>
             <div class="row match-height-active">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon icon-icomoon-search base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Custom Website Design</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-html5"></i></span>
-                                <span class="service__list-text">HTML Template</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-wordpress"></i></span>
-                                <span class="service__list-text">WordPress Theme</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-opencart"></i></span>
-                                <span class="service__list-text">Woocommerce Theme</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-jsfiddle"> <span class="path1"></span>
-                                    </i></span>
-                                <span class="service__list-text">Megento Theme</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="icon-icomoon-laravel"></i></span>
-                                <span class="service__list-text">Laravel Theme</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
+                <div class="col-lg-6">
+                    <img src="images/my-images/3.jpg" alt="img" class="subs-img">
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon  icon-icomoon-brush base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Paid Search Advertising</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-fire"></i></span>
-                                <span class="service__list-text">Fire Advertising</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-instagram"></i></span>
-                                <span class="service__list-text">Instagram Advertising</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-adn"></i></span>
-                                <span class="service__list-text">Prison Advertising</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-bandcamp"> <span class="path1"></span>
-                                    </i></span>
-                                <span class="service__list-text">Nravo Advertising</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-yoast"></i></span>
-                                <span class="service__list-text">BIty Advertising</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".4s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon icon-icomoon-droper  base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Local Search Strategy</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-wifi"></i></span>
-                                <span class="service__list-text">Local Strategy</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-lightbulb-o"></i></span>
-                                <span class="service__list-text">HighPower Strategy</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-bed"></i></span>
-                                <span class="service__list-text">Binggo Strategy</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-bar-chart-o"> <span
-                                            class="path1"></span> </i></span>
-                                <span class="service__list-text">Pilus Strategy</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-files-o"></i></span>
-                                <span class="service__list-text">Kruku Strategy</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon icon-icomoon-diamond  base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Link Building &amp; Content</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-chrome"></i></span>
-                                <span class="service__list-text">TIngtong Content</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-clone"></i></span>
-                                <span class="service__list-text">Hyper Content</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-share-alt"></i></span>
-                                <span class="service__list-text">Fhanku Karu Content</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-fighter-jet"> <span
-                                            class="path1"></span> </i></span>
-                                <span class="service__list-text">Appolor Content</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-star"></i></span>
-                                <span class="service__list-text">Bapkamal Content</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon icon-icomoon-brush  base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Maps Search Optimization</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-pagelines"></i></span>
-                                <span class="service__list-text">Fetuk Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i
-                                        class="fa fa-assistive-listening-systems"></i></span>
-                                <span class="service__list-text">Tranmau Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-flask"></i></span>
-                                <span class="service__list-text">Jinglo Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-lightbulb-o"> <span
-                                            class="path1"></span> </i></span>
-                                <span class="service__list-text">Lingano Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-eye"></i></span>
-                                <span class="service__list-text">Prismano Optimization</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".4s">
-                        <div class="service__icon-wrap">
-                            <i class="service__icon icon-icomoon-blub  base-color"></i>
-                        </div>
-                        <h3 class="service__title"><a href="#">Search Engine Optimization</a></h3>
-                        <ul class="service__list">
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-chrome"></i></span>
-                                <span class="service__list-text">Fetuk Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-clone"></i></span>
-                                <span class="service__list-text">Tranmau Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-share-alt"></i></span>
-                                <span class="service__list-text">Jinglo Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-fighter-jet"> <span
-                                            class="path1"></span> </i></span>
-                                <span class="service__list-text">Lingano Optimization</span>
-                            </li>
-                            <li>
-                                <span class="service__list-icon"><i class="fa fa-star"></i></span>
-                                <span class="service__list-text">Prismano Optimization</span>
-                            </li>
-                        </ul>
-                    </div><!--/.feature-item-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-padding ash-white-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 ">
-                    <div class="pdt40 mt50 hidden-sm hidden-xs"></div>
-                    <div class="pdt45 hidden-sm hidden-xs"></div>
-                    <div class="site-store text-center mb30 ">
-                        <h2 class="section-title wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">Check
-                            Site Score</h2>
-                        <p class=" wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">Check your website's
-                            SEO problems for free!</p>
-                        <form class="pdt15" action="#" method="post">
-                            <input type="text" placeholder="Type your website name...."
-                                class="form-control wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s" />
-                            <input type="email" placeholder="Type email address...."
-                                class="form-control wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">
-                            <input type="submit" class="btn base-bg wow fadeInUpSmd" data-wow-duration=".8s"
-                                data-wow-delay=".4s" value="check up" />
-                        </form>
+                <div class="col-lg-6">
+                    <h1>Villo Pharmacy</h1>
+                    <p>
+                        Dedicated to promoting health and wellness in our community through professional pharmaceutical
+                        services. We provide accessible healthcare solutions with personalized care and expert guidance.
+                    </p>
+                    <ul class="card-features">
+                        <li>Prescription medication dispensing</li>
+                        <li>Over-the-counter medicines</li>
+                        <li>Health and wellness consultations</li>
+                        <li>Medical equipment and supplies</li>
+                        <li>Specialized pharmaceutical care</li>
+                    </ul>
+                    <div class="contact-info">
+                        <h4>Health Services</h4>
+                        <p><strong>Location:</strong> Kandy, Sri Lanka</p>
+                        <p><strong>Services:</strong> Pharmaceutical & Healthcare</p>
+                        <p><strong>Specialization:</strong> Community health solutions</p>
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="site-store-images">
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="image mb30">
-                                    <img class="img-round" src="images/home/1.jpg" alt="">
-                                </div>
-                                <div class="image mb30">
-                                    <img class="img-round" src="images/home/3.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="image mb30">
-                                    <img class="img-round" src="images/home/2.jpg" alt="">
-                                </div>
-                                <div class="image mb30">
-                                    <img class="img-round" src="images/home/4.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-padding feature-section ">
-        <div class="container-fluid text-center">
-            <h2 class="section-title">We thrive on building relationships &amp;<br />take great pride in the company we
-                keep.</h2>
-            <a href="#" class="btn base-bg btn--large">LEARN MORE</a>
-            <div class="images mt50">
-                <img src="images/home/5.jpg" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="section-padding video-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="video-text pdt50 mt5 mb30">
-                        <div class="video-icon-wrap pdb30 wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                            <a href="#!" class="base-bg video-icon popup-active"
-                                data-link="https://www.youtube.com/watch?v=UAJyJt_lnKA">
-                                <i class="icon-icomoon-play"></i>
-                            </a>
-                            <span class="title">Intro Video</span>
-                        </div>
-                        <h2 class="section-title wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">How we
-                            help brands</h2>
-                        <p class="wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".4s">Seed money optimized for
-                            social sharing chatvertizing brand awareness granular thought leadership. Engagement tweens
-                            native content drone. Hit the like button CPM holistic content marketing responsive. Viral
-                            native content Gen Y long-tail chatvertizing engagement. Scalability long-tail big data.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="image mb30 wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <img class="video-feature-image" src="images/home/6.jpg" alt="asdf" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="casestudy-section section-padding ash-white-bg">
-        <div class="container pdb5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading text-center">
-                        <h4 class="section-sub-title">Market Your Mind</h4>
-                        <h2 class="section-title">Case Study</h2>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="casestudy-carousel owl owl-carousel" data-itemsDesktop="3" data-itemsDesktopSmall="2"
-                    data-itemsTablet="2" data-itemsMobile="1" data-autoplay="true" data-pagination="false"
-                    data-margin="30" data-navigation="true">
-                    <div class="casestudy">
-                        <div class="casestudy__image-wrap">
-                            <img src="images/home/7.jpg" alt="">
-                        </div>
-                        <div class="casestudy__text-content">
-                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
-                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
-                        </div>
-                    </div><!--/.casestudy-->
-                    <div class="casestudy">
-                        <div class="casestudy__image-wrap">
-                            <img src="images/home/8.jpg" alt="">
-                        </div>
-                        <div class="casestudy__text-content">
-                            <h4 class="casestudy__title"><a href="#"> Generic Speed Up</a></h4>
-                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
-                        </div>
-                    </div><!--/.casestudy-->
-                    <div class="casestudy">
-                        <div class="casestudy__image-wrap">
-                            <img src="images/home/9.jpg" alt="">
-                        </div>
-                        <div class="casestudy__text-content">
-                            <h4 class="casestudy__title"><a href="#">Website Speed SEO</a></h4>
-                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
-                        </div>
-                    </div><!--/.casestudy-->
-                    <div class="casestudy">
-                        <div class="casestudy__image-wrap">
-                            <img src="images/home/7.jpg" alt="">
-                        </div>
-                        <div class="casestudy__text-content">
-                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
-                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
-                        </div>
-                    </div><!--/.casestudy-->
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="newsletter-section base-bg pdt50">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-5">
-                    <div class="newsletter-icons pdt25">
-                        <img src="images/home/10.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-7">
-                    <div class="newsletter pdt25 pdb50">
-                        <h3>Email Newsletters!</h3>
-                        <div class="newsletter-form">
-                            <input type="text" class="form-control newsletter-form__input"
-                                placeholder="Enter your email....." />
-                            <input type="submit" class="btn newsletter-form__submit" value="Subscribe">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="news-feed-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading text-center">
-                        <h4 class="section-sub-title">Daily Update</h4>
-                        <h2 class="section-title">News Feeds</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="newsfeed newsfeed--active wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".0s">
-                        <div class="video-icon-wrap pdb20">
-                            <a href="#!" data-link="https://www.youtube.com/watch?v=UAJyJt_lnKA"
-                                class="base-bg video-icon popup-active">
-                                <i class="icon-icomoon-play"></i>
-                            </a>
-
-                        </div>
-                        <h3 class="newsfeed__title"><a href="#">Many desktop publishing packages and web page editors
-                                now use.</a> </h3>
-                        <p>The point of using Lorem Ipsum is that it has a more or-less normal distribution of letters,
-                            as opposed to using 'content here, content here', making it look like readable English.</p>
-                    </div><!--/.newsfeed-->
-                </div>
-                <div class="col-md-6">
-                    <div class="newsfeed wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <span class="newsfeed__date pull-left">25 January</span>
-                        <span class="newsfeed__category base-bg pull-right">businessy</span>
-                        <div class="clear"></div>
-                        <h3 class="newsfeed__title"><a href="#">It is a long established fact that a reader will be
-                                distracted done.</a> </h3>
-                        <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'content here, content here', making it look like readable English.</p>
-                    </div><!--/.newsfeed-->
-                    <div class="newsfeed wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <span class="newsfeed__date pull-left">25 January</span>
-                        <span class="newsfeed__category base-bg pull-right">businessy</span>
-                        <div class="clear"></div>
-                        <h3 class="newsfeed__title"><a href="#">Many desktop publishing packages & web page editors now
-                                use as their default.</a> </h3>
-                        <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'content here, content here', making it look like readable English.</p>
-                    </div><!--/.newsfeed-->
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--footer-->
     <footer class="footer">
         <div class="main-footer">
             <div class="container">
@@ -617,6 +340,7 @@
         </div>
         <a href="#" id="toTop" class="cd-top"><i class="fa fa-angle-up"></i></a>
     </footer>
+
     <!-- // End Footer  -->
     <!-- == jQuery Librery == -->
     <script src="js/jquery-2.2.4.min.js"></script>
