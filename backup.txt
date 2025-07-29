@@ -1,0 +1,105 @@
+
+    <!--seo score-->
+    <section class="section-padding ash-white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ">
+                    <div class="pdt40 mt50 hidden-sm hidden-xs"></div>
+                    <div class="pdt45 hidden-sm hidden-xs"></div>
+                    <div class="site-store text-center mb30 ">
+                        <h2 class="section-title wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">Check
+                            Site Score</h2>
+                        <p class=" wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">Check your website's
+                            SEO problems for free!</p>
+                        <form class="pdt15" action="#" method="post">
+                            <input type="text" placeholder="Type your website name...."
+                                class="form-control wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s" />
+                            <input type="email" placeholder="Type email address...."
+                                class="form-control wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".3s">
+                            <input type="submit" class="btn base-bg wow fadeInUpSmd" data-wow-duration=".8s"
+                                data-wow-delay=".4s" value="check up" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="site-store-images">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="image mb30">
+                                    <img class="img-round" src="images/home/1.jpg" alt="">
+                                </div>
+                                <div class="image mb30">
+                                    <img class="img-round" src="images/home/3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="image mb30">
+                                    <img class="img-round" src="images/home/2.jpg" alt="">
+                                </div>
+                                <div class="image mb30">
+                                    <img class="img-round" src="images/home/4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!---case study-->
+    <section class="casestudy-section section-padding ash-white-bg">
+        <div class="container pdb5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h4 class="section-sub-title">Market Your Mind</h4>
+                        <h2 class="section-title">Case Study</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="casestudy-carousel owl owl-carousel" data-itemsDesktop="3" data-itemsDesktopSmall="2"
+                    data-itemsTablet="2" data-itemsMobile="1" data-autoplay="true" data-pagination="false"
+                    data-margin="30" data-navigation="true">
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/7.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/8.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#"> Generic Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/9.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Website Speed SEO</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/7.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                </div>
+            </div>
+        </div>
+    </section>
