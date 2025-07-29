@@ -2075,7 +2075,7 @@ img.mfp-img {
   border: 1px solid #c6cacc;
   border-radius: 50px;
   background: transparent;
-  color: #333d4c;
+  color: #fff;
   font-size: 14px;
   display: inline-block;
   min-width: 200px;
@@ -4227,3 +4227,9 @@ img.mfp-img {
 /* -----------------------------------
 **  End Preloader
 -------------------------------------*/
+
+/*udara was here*/
+
+.text-black{
+  color: #27313f;
+}
