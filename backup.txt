@@ -103,3 +103,205 @@
             </div>
         </div>
     </section>
+
+    <!--case study-->
+    
+    <section class="casestudy-section section-padding ash-white-bg">
+        <div class="container pdb5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h4 class="section-sub-title">Market Your Mind</h4>
+                        <h2 class="section-title">Case Study</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                 <div class="casestudy-carousel owl owl-carousel"  data-itemsDesktop="3" data-itemsDesktopSmall="2" data-itemsTablet="2" data-itemsMobile="1" data-autoplay="true" data-pagination="false" data-margin="30" data-navigation="true">
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/7.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/8.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#"> Generic Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/9.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Website Speed SEO</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                    <div class="casestudy">
+                        <div class="casestudy__image-wrap">
+                            <img src="images/home/7.jpg" alt="">
+                        </div>
+                        <div class="casestudy__text-content">
+                            <h4 class="casestudy__title"><a href="#">Seo Speed Up</a></h4>
+                            <p>Seed money optimized for social sharing chatvertizing brand awareness</p>
+                        </div>
+                    </div><!--/.casestudy-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--price section-->
+    <section class="section-padding price-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h4 class="section-sub-title wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".0s">Service Plans</h4>
+                        <h2 class="section-title wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">Pricing Planing</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="price-table-nav wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".0s">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#price-monthly" class="price-monthly" aria-controls="price-monthly" role="tab" data-toggle="tab">monthly</a></li>
+                            <li role="presentation"><a href="#price-yearly" class="price-yearly" aria-controls="price-yearly" role="tab" data-toggle="tab">yearly</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content pdt50">
+                        <div role="tabpanel" class="tab-pane fade in active" id="price-monthly">
+                            <div class="price-table-wrap">
+                                <div>
+                                    <div class="price-table">
+                                        <div class="price-table__type pdt15 base-color">
+                                            Free
+                                        </div>
+                                        <div class="price-table__rate">
+                                            <strong class="price-table__amount">$0</strong>/mo
+                                        </div>
+                                        <ul class="price-table__feature-list">
+                                            <li>10 GB Hosting</li>
+                                            <li>12+ Free Domain</li>
+                                            <li>100+ Email Acount</li>
+                                            <li>24/7 Online Support</li>
+                                        </ul>
+                                        <a href="#" class="btn base-bg mb15">PURCHASE</a>
+                                    </div><!--/.price-table-->
+                                </div>
+                                <div>
+                                    <div class="price-table">
+                                        <div class="price-table__type yellow-color">
+                                            Premium
+                                        </div>
+                                        <div class="price-table__rate">
+                                            <strong class="price-table__amount">$40</strong>/mo
+                                        </div>
+                                        <ul class="price-table__feature-list">
+                                            <li>30 GB Hosting</li>
+                                            <li>129+ Free Domain</li>
+                                            <li>1000+ Email Acount</li>
+                                            <li>100+ Live Server</li>
+                                            <li>100GB SSD Server</li>
+                                            <li>24/7 Online Support</li>
+                                        </ul>
+                                        <a href="#" class="btn yellow-bg">PURCHASE</a>
+                                    </div><!--/.price-table-->
+                                </div>
+                                <div>
+                                    <div class="price-table">
+                                        <div class="price-table__type pdt15 red-color">
+                                            Pro busines
+                                        </div>
+                                        <div class="price-table__rate">
+                                            <strong class="price-table__amount">$500</strong>/mo
+                                        </div>
+                                        <ul class="price-table__feature-list">
+                                            <li>5 0 GB Hosting</li>
+                                            <li>199+ Free Domain</li>
+                                            <li>3000+ Email Acount</li>
+                                            <li>200+ Live Server</li>
+                                            <li>500GB SSD Server</li>
+                                            <li>24/7 Online Support</li>
+                                        </ul>
+                                        <a href="#" class="btn red-bg mb15">PURCHASE</a>
+                                    </div><!--/.price-table-->
+                                </div>
+
+                            </div>
+                        </div>
+                       <div role="tabpanel" class="tab-pane fade" id="price-yearly">
+                           <div class="price-table-wrap">
+                               <div class="wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".10s">
+                                   <div class="price-table">
+                                       <div class="price-table__type pdt15 base-color">
+                                           Free
+                                       </div>
+                                       <div class="price-table__rate">
+                                           <strong class="price-table__amount">$0</strong>/mo
+                                       </div>
+                                       <ul class="price-table__feature-list">
+                                           <li>10 GB Hosting</li>
+                                           <li>12+ Free Domain</li>
+                                           <li>100+ Email Acount</li>
+                                           <li>24/7 Online Support</li>
+                                       </ul>
+                                       <a href="#" class="btn base-bg mb15">PURCHASE</a>
+                                   </div><!--/.price-table-->
+                               </div>
+                               <div class="wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".2s">
+                                   <div class="price-table">
+                                       <div class="price-table__type yellow-color">
+                                           Premium
+                                       </div>
+                                       <div class="price-table__rate">
+                                           <strong class="price-table__amount">$1000</strong>/yearly
+                                       </div>
+                                       <ul class="price-table__feature-list">
+                                           <li>30 GB Hosting</li>
+                                           <li>129+ Free Domain</li>
+                                           <li>1000+ Email Acount</li>
+                                           <li>100+ Live Server</li>
+                                           <li>100GB SSD Server</li>
+                                           <li>24/7 Online Support</li>
+                                       </ul>
+                                       <a href="#" class="btn yellow-bg">PURCHASE</a>
+                                   </div><!--/.price-table-->
+                               </div>
+                               <div class="wow fadeInUpSmd" data-wow-duration=".8s" data-wow-delay=".4s">
+                                   <div class="price-table">
+                                       <div class="price-table__type pdt15 red-color">
+                                           Pro busines
+                                       </div>
+                                       <div class="price-table__rate">
+                                           <strong class="price-table__amount">$2000</strong>/yearly
+                                       </div>
+                                       <ul class="price-table__feature-list">
+                                           <li>5 0 GB Hosting</li>
+                                           <li>199+ Free Domain</li>
+                                           <li>3000+ Email Acount</li>
+                                           <li>200+ Live Server</li>
+                                           <li>500GB SSD Server</li>
+                                           <li>24/7 Online Support</li>
+                                       </ul>
+                                       <a href="#" class="btn red-bg mb15">PURCHASE</a>
+                                   </div><!--/.price-table-->
+                               </div>
+
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
