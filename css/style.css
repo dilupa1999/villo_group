@@ -4302,6 +4302,10 @@ img.mfp-img {
 
 /*udara was here*/
 
+.d-none{
+  display: none;
+}
+
 .text-black {
   color: #27313f;
 }
